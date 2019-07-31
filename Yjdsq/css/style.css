@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background: url("../img/Tint.png") no-repeat center top / cover ;
+    padding-bottom: 161px;
+
+}
+
+section{
+    width: 930px;
+    margin: 0 auto;
+
+}
+div{
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+    padding-top: 46px;
+}
+nav{
+    float: right;
+}
+nav ul {
+    display: block;
+    float: left;
+}
+ nav ul li{
+     float: left;
+     display: block;
+     color: white;
+     margin-right: 41px;
+     padding-top: 50px;
+ }
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+.title{
+    padding-top: 278px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.title div {
+    font-size:29px;
+}
+.title h1{
+    font-size: 55px;
+    line-height: 98px;
+}
+.title a {
+    padding: 25px 54px 25px 54px;
+    background: #fed136;
+    border-radius: 3px;
+    color: #484543;
+    line-height: 83px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main_section_one {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main_section_one h2{
+    color: #191919;
+    font-size: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main_section_one h5{
+    text-align: center;
+    color: #2d2d2d;
+    padding-top: 22px;
+}
+.main_section_one ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.main_section_one ul li{
+    text-align: center;
+    margin: 35px;
+    list-style: none;
+
+
+}
+.main_section_one ul li img,h4,p {
+    padding: 20px;
+}
+.main_section_one ul li h4 {
+    font-size: 14px;
+}
+.main_section_one ul li p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+.main_section_two{
+    width:100%;
+    background:#f7f7f7;
+}
+.main_section_two div{
+    width:931px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main_section_two div h2{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 31px;
+    text-align: center;
+ }
+.main_section_two div h5{
+    font-size: 14px;
+    color: #2d2d2d;
+    text-align: center;
+    padding-top: 22px;
+}
+.main_section_two div ul{
+    display: flex;
+    padding-top: 45px;
+}
+.main_section_two div ul li{
+    list-style: none;
+    margin: 17px;
+}
+.main_section_three {
+    padding-top:100px ;
+    padding-bottom:100px;
+}
+.main_section_three h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 31px;
+}
+.main_section_three h5 {
+    font-size: 14px;
+    color: #2d2d2d;
+    text-align: center;
+    padding-top: 22px;
+}
+.main_section_three ul li {
+    list-style: none;
+
+}
+.main_section_three ul {
+    margin-top: 45px;
+
+}
+.main_section_three .one_two,.two_one {
+    display: flex;
+
+}
+.two_one {
+    text-align: right;
+    margin-left: 58px;
+}
+.two_one h6,.one_two h6{
+    font-size: 15px;
+    color: #2d2d2d;
+}
+.one_two{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 500px;
+    margin-left: 376px;
+}
+.two_one {
+ width: 500px;
+}
+.one_two h3,h6{
+    margin-top: 15px;
+}
+@media (max-width: 550px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
